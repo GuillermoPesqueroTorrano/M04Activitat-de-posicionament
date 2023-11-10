@@ -1,0 +1,85 @@
+/* Amb aixo apliquem estils a tot el boddy */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Amb aixo apliquem estils a tot el header*/
+header {
+    background-color: darkred;
+    position: fixed;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Amb aixo apliquem estils a la id #navegador per determinar la posició*/
+
+#navegador  {
+    padding: 10px;
+    top:14%;
+    width: 100%;
+    position:fixed;
+
+}
+
+
+/* Amb aixo escollim el color y la posicio del nav */
+nav {
+    background-color: red;
+    text-align: center;
+    position: sticky;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav a {
+    background-color: red;
+    color: white;
+    position: sticky;
+    margin: 3px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* Amb aix escollim la posicio de tot el main */
+main {
+    padding: 120px;
+    margin: 0px;
+}
+
+/* Les ID's de les seccions*/
+
+#section1 {
+    background-color: lightgray;
+    padding: 50px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+#section2 {
+    background-color: lightgray;
+    padding:  50px;
+    margin: 10px;
+}
+
+#section3 {
+    background-color: lightgray;
+    padding: 50px;
+    margin: 10px;
+    margin-bottom: -70px;
+}
+
+/* Amb aixo escollim la mida, el color y la forma del footer */
+
+footer {
+    font-weight: bold;
+    background-color: darkred;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    position: sticky;
+}
